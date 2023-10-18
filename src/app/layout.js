@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter2.className} ${inter.className}`}>
+      <body className={`${inter2.className}`}>
         <main className='relative min-w-full min-h-screen flex flex-col justify-between overflow-x-hidden '>
           <Navigation />
           <div className='flex-1 px-10 2xl:px-40'>
